@@ -9,12 +9,17 @@ base_conocimiento = {
             'estacion_A': [8, 10, 12, 14, 16],
             'estacion_B': [8, 10, 12, 14, 16],
             'estacion_C': [9, 11, 13, 15, 17],
-            'estacion_D': [9, 11, 13, 15, 17]
-        },
+            'estacion_D': [9, 11, 13, 15, 17],
+            'estacion_E': [9, 11, 15, 16, 18],
+            'estacion_F': [5, 14, 13, 22, 19]
+
+            },
         'tarifas': {
             'estacion_A-estacion_B': 1000,
             'estacion_B-estacion_C': 1500,
-            'estacion_C-estacion_D': 2000
+            'estacion_C-estacion_D': 2000,
+            'estacion_E-estacion_F': 1500,
+            'estacion_F-estacion_D': 1800
         }
     },
     'ruta2': {
