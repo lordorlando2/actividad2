@@ -4,33 +4,33 @@ import random
 # Definir la base de conocimiento
 base_conocimiento = {
     'ruta1': {
-        'paradas': ['A', 'B', 'C', 'D'],
+       'paradas': ['estacion_A', 'estacion_B', 'estacion_C', 'estacion_D'],
         'horarios': {
-            'A': [8, 10, 12, 14, 16],
-            'B': [8, 10, 12, 14, 16],
-            'C': [9, 11, 13, 15, 17],
-            'D': [9, 11, 13, 15, 17]
+            'estacion_A': [8, 10, 12, 14, 16],
+            'estacion_B': [8, 10, 12, 14, 16],
+            'estacion_C': [9, 11, 13, 15, 17],
+            'estacion_D': [9, 11, 13, 15, 17]
         },
         'tarifas': {
-            'A-B': 1000,
-            'B-C': 1500,
-            'C-D': 2000
+            'estacion_A-estacion_B': 1000,
+            'estacion_B-estacion_C': 1500,
+            'estacion_C-estacion_D': 2000
         }
     },
     'ruta2': {
-        'paradas': ['A', 'B', 'E', 'F', 'D'],
+        'paradas': ['estacion_A', 'estacion_B', 'estacion_E', 'estacion_F', 'estacion_D'],
         'horarios': {
-            'A': [9, 11, 13, 15, 17],
-            'B': [9, 11, 13, 15, 17],
-            'E': [10, 12, 14, 16, 18],
-            'F': [10, 12, 14, 16, 18],
-            'D': [11, 13, 15, 17, 19]
+            'estacion_A': [9, 11, 13, 15, 17],
+            'estacion_B': [9, 11, 13, 15, 17],
+            'estacion_E': [10, 12, 14, 16, 18],
+            'estacion_F': [10, 12, 14, 16, 18],
+            'estacion_D': [11, 13, 15, 17, 19]
         },
         'tarifas': {
-            'A-B': 1200,
-            'B-E': 2000,
-            'E-F': 1500,
-            'F-D': 1800
+            'estacion_A-estacion_B': 1200,
+            'estacion_B-estacion_E': 2000,
+            'estacion_E-estacion_F': 1500,
+            'estacion_F-estacion_D': 1800
         }
     }
 }
